@@ -1,0 +1,49 @@
+/* Start Global */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+/* End Global*/
+
+/* Start Show Case */
+.show-case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 200px;
+    box-shadow: 5px 5px 20px #333, -5px -5px 20px #333;
+}
+
+.show {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width: 35vw;
+    height: 200px;
+    box-shadow: 5px 5px 20px #333, -5px -5px 20px #333;
+    padding: 1rem 2rem;
+    position: relative;
+}
+.state {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    width: 88%;
+}
+.state .check {
+    color: #720202;
+}
+
+/* End Show Case */
